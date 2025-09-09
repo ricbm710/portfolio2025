@@ -1,12 +1,15 @@
 //pages
 import Home from "./pages/Home";
+//components
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const Layout = () => {
   return (
     <>
-      <div>Navbar</div>
+      <Navbar />
       <Home />
-      <div>Footer</div>
+      <Footer />
     </>
   );
 };
