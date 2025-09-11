@@ -1,8 +1,9 @@
 //interface
-import { ExternalLink } from "lucide-react";
 import type { Project } from "../../project_data/data";
 //hooks
 import { useState } from "react";
+//lucide icons
+import { ExternalLink } from "lucide-react";
 
 type ProjectProps = {
   project: Project;
