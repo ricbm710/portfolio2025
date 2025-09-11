@@ -1,4 +1,5 @@
 //interface
+import { ExternalLink } from "lucide-react";
 import type { Project } from "../../project_data/data";
 //hooks
 import { useState } from "react";
@@ -16,9 +17,10 @@ const ProjectCard = ({ project }: ProjectProps) => {
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
+          className="hover:text-gray-600 flex items-center gap-1"
         >
           {project.title}
+          <ExternalLink className="w-4 h-4" />
         </a>
       </h4>
       <h5 className="text-sm text-gray-800">{project.description}</h5>

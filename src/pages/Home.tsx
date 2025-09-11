@@ -1,6 +1,7 @@
 //project data
-import ProjectCard from "../components/projects/ProjectCard";
 import { projects } from "../project_data/data";
+//components
+import ProjectCard from "../components/projects/ProjectCard";
 
 const Home = () => {
   return (
